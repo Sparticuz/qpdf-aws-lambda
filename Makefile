@@ -15,5 +15,6 @@ build: clean
 	mkdir -p ./bin ./lib
 	cp -R squashfs-root/usr/bin/* ./bin/
 	cp -R squashfs-root/usr/lib/* ./lib/
+	chmod +x ./bin/*
 	rm -rf squashfs-root qpdf.AppImage
 	@zip -9 --filesync --recurse-paths qpdf-aws-lambda.zip bin/ lib/
