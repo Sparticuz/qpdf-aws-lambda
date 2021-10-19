@@ -1,3 +1,5 @@
+NOTE: This repo is no longer needed: https://github.com/qpdf/qpdf/issues/352#issuecomment-713606987
+
 # QPDF
 
 [QPDF](https://qpdf.sourceforge.net/) is a command-line program that does structural, content-preserving transformations on PDF files.
